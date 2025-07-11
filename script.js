@@ -115,6 +115,10 @@ document.getElementById('toggle-button').addEventListener('click', function() {
 // Funkcija za generiranje popisa vrsta (po potporodici i rodu)
 function generateSpeciesListBracko(data) {
   const container = document.getElementById('species-list');
+  // Zapamti trenutno odabrani radio gumb
+  const prevChecked = container.querySelector('input[type="radio"]:checked');
+  const prevCheckedId = prevChecked ? prevChecked.id : 'none';
+
   container.innerHTML = '';
 
   // Opcija za maknuti sve markere
@@ -123,7 +127,6 @@ function generateSpeciesListBracko(data) {
   noneInput.type = 'radio';
   noneInput.name = 'species';
   noneInput.id = 'none';
-  noneInput.checked = true;
 
   const noneLabel = document.createElement('label');
   noneLabel.htmlFor = 'none';
@@ -252,7 +255,21 @@ function generateSpeciesListBracko(data) {
   // Dodaj event listener za sve radio gumbe
   container.querySelectorAll('input[type="radio"][name="species"]').forEach(radio => {
     radio.addEventListener('change', filterData);
+    // Vrati checked na prethodno odabrani radio
+    if (radio.id === prevCheckedId) {
+      radio.checked = true;
+    }
   });
+  // Ako ništa nije bilo odabrano, default na "none"
+  if (!container.querySelector('input[type="radio"]:checked')) {
+    container.querySelector('#none').checked = true;
+  }
+  // --- OVDJE DODAJ OVO: uvijek postavi tekst labela ---
+  const noneLabelFix = container.querySelector('label[for="none"]');
+  if (noneLabelFix) {
+    noneLabelFix.innerHTML = '<i>Makni sve markere</i>';
+    noneLabelFix.style.display = 'inline';
+  }
 }
 
 // --- Tražilica gradova s padajućim popisom ---

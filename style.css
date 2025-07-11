@@ -114,3 +114,12 @@ input[type="checkbox"] {
   font-weight: bold;
   margin-bottom: 3px;
 }
+
+label[for="none"] {
+  display: inline !important;
+  color: #222 !important;
+  font-size: 15px !important;
+  background: #fff !important;
+  position: relative !important;
+  z-index: 1000 !important;
+}
