@@ -1,0 +1,291 @@
+Alan
+Benkovac
+Bjelolasica
+Bribir
+Dalj
+Donja & Gornja Vrućica
+Dretulja spring
+Drniš
+Galdovo
+Gera
+Gornja & Donja Vrućica
+Gornje Vinovo
+Graćani
+Gračac
+Grobničko polje
+Ilica Planina
+Ivanišćica
+Jablanac
+Jagnjedovac
+Jasenovača
+Kanfanar
+Karin
+Karlovac
+Kolac
+Koljane
+Konjsko
+Konjščina
+Kortivi
+Korčula (near Račišće)
+Kosore
+Kotlenice
+Koćino
+Krapinske Toplice
+Krećenik
+Krka
+Kršan
+Kupari
+Kutjevo
+Ličko polje
+Lovran - Mošćenička Draga
+Lovreć
+Mali Halan
+Metković
+Mošilo
+Mošćenička Draga
+Mrzla vodica
+Mune - Čejane
+Novigrad Podravski
+Obrovac
+Ozalj
+Perušić
+Plješevica
+Podprag
+Poljica
+Ponikve
+Požega
+Rakalj
+Ravna Gora
+Raška
+Rječina
+Rječina spring
+Rogoznica
+Samobor
+Siverić
+Skrad
+Sošice
+Stojdraga
+Ston
+Strmica
+Stružec
+Sušci
+Tisno
+Trnbusi
+Trnovec
+Trpanj
+Veliki Drvenik
+Virovitica
+Vozilići
+Vrana
+Zaprešić
+i. Bijelac
+i. Bisače
+i. Bišace
+i. Biševo
+i. Brač
+i. Brač (Bol)
+i. Brač (Bol, Supetar, Milna)
+i. Brač (Kneza Ravan, Bol, Nerežišća)
+i. Brač (Kneza Ravan, Nerežišća, Bol, Supetar)
+i. Brač (Milna)
+i. Brač (Pučišća)
+i. Brač (Zlatni rat)
+i. Brijuni
+i. Brusnik
+i. Cres
+i. Cres (Martinsćica)
+i. Cres (Martinšćica)
+i. Cres (Vodice)
+i. Cres (Vrana)
+i. Cres (near Martinšćica)
+i. Crnac
+i. Daksa
+i. Dolin
+i. Dugi otok
+i. Dugi otok (Dugo polje)
+i. Dugi otok (Sali)
+i. Dugi otok (Sali, Salsko polje)
+i. Dugi otok (Sali, Salsko polje, Dobro polje)
+i. Dugi otok (Zaglav)
+i. Galijola
+i. Goli
+i. Greben
+i. Grujica
+i. Hvar
+i. Hvar (Brusje)
+i. Hvar (Brusje, Sućuraj)
+i. Hvar (Hvar)
+i. Hvar (Jelsa)
+i. Hvar (Jelsa, Hvar)
+i. Hvar (Privorac cave)
+i. Hvar (Sućuraj)
+i. Hvar (Vrbanj)
+i. Hvar (Vrbanj, Jelsa)
+i. Hvar (Vrbanj, Jelsa, Vrboska)
+i. Hvar (Vrboska)
+i. Hvar (near Hvar)
+i. Ilovik
+i. Jabuka
+i. Jakljan
+i. Kamenjak
+i. Kamik
+i. Koločep
+i. Kopište
+i. Kormati
+i. Kornat
+i. Korčula
+i. Korčula (Korčula)
+i. Korčula (Lumbarda, Kučište)
+i. Korčula (Pupnat)
+i. Korčula (Pupnat, Žrnovo)
+i. Korčula (Račišće)
+i. Korčula (Samograd)
+i. Korčula (Sv. Antun)
+i. Korčula (Vela Luka)
+i. Korčula (near Korčula)
+i. Korčula (near Korčula, near Vela Luka)
+i. Korčula (near Račišće)
+i. Korčula (near Račišće, near Vela Luka)
+i. Korčula (near Vela Luka)
+i. Kozjak
+i. Krk
+i. Krk (Baška)
+i. Krk (Jurandvor)
+i. Krk (Krk)
+i. Krk (Krk, Jurandvor, near Sv. Roko, Ponikva)
+i. Krk (Krk, between Krk and Malinska)
+i. Krk (Krk, between Malinska and Skrbčići, Jurandvor)
+i. Krk (Krk, near Baška)
+i. Krk (Krk, near Malinska)
+i. Krk (Krk, near Sv. Roko)
+i. Krk (Lakmartin)
+i. Krk (Lakmartin, Njivice)
+i. Krk (Ponikva, between Krk and Malinska)
+i. Krk (between Krk and Baška, Treskavac)
+i. Krk (between Skrbčići and Malinska, Jurandvor)
+i. Krk (near Baška)
+i. Krk (near Krk, between Skrbčići and Malinska)
+i. Krk (near Ponikva, between Krk and Malinska)
+i. Lastovo
+i. Lastovo (Polje)
+i. Lastovo (near Skrivena Luka)
+i. Lokrum
+i. Lopud
+i. Lošinj
+i. Lošinj (Osoršćica)
+i. Lošinj (Sv. Ivan)
+i. Lošinj (Veli Lošinj)
+i. Male Srakane
+i. Mali & Veli Barjak
+i. Mali & Veli Lastovljan
+i. Mali & Veli Parćan
+i. Mali Lastovljan
+i. Mali Parćan
+i. Mali Plavnik
+i. Mljet
+i. Mljet (Sobra)
+i. Molat
+i. Mrčara
+i. Olipa
+i. Orjule
+i. Oruda
+i. Otok
+i. Pag
+i. Pag (Kolan)
+i. Pag (Lun)
+i. Pag (Novalja, Lun)
+i. Pag (Saline)
+i. Palacol
+i. Palagruža
+i. Piškera
+i. Plavnik
+i. Podkopište
+i. Rab
+i. Rab (Banjol, near Lopar)
+i. Rab (Dundo)
+i. Rab (Kamenjak)
+i. Rab (Kamenjak, Lopar)
+i. Rab (Lopar)
+i. Rab (Rab)
+i. Rab (Rab, Banjol)
+i. Rab (Rab, Banjol, Lopar, Jamina)
+i. Rab (Rab, Banjol, Rt Zidine)
+i. Rab (Rab, Banjol, Sv. Matej, Sv. Ilija, Lopar)
+i. Rab (Rab, Dundo, near Sv. Ilija, Rt Zidine)
+i. Rab (Rab, Lopar)
+i. Rab (Rab, Lopar, Rt Zidine)
+i. Rab (Rab, Sv. Ilija, Banjol, Dundo, Lopar, Rt Zidine, Rt Stojan)
+i. Rab (Rab, Sv. Ilija, Banjol, Dundo, Lopar, near Blasić, Rt Zidine)
+i. Rab (Rab, Sv. Ilija, Kamenjak, near Lopar, Rt Zidine, Rt Stojan)
+i. Rab (Rab, Sv. Ilija, Lopar, Rt Stojan)
+i. Rab (Rab, between Rab and Banjol, Lopar, Stanišće)
+i. Rab (Rab, near Lopar, near Banjol)
+i. Rab (Rab, near Sv. Ilija)
+i. Rab (Rab, near Sv. Ilija, Banjol, Dundo, Lopar, near Stanišće, Visilica)
+i. Rab (Rab, near Sv. Ilija, Dundo, Lopar, Rt Stojan, Rt Zidine)
+i. Rab (Suha Punta)
+i. Rab (Sv. Ilija, near Lopar)
+i. Rab (Sv. Matej, Kamenjak)
+i. Rab (between Rab and Sv. Ilija)
+i. Rab (near Lopar)
+i. Rab (near Sv. Ilija, Kamenjak)
+i. Rava
+i. Susak
+i. Sušac
+i. Sv. Klement
+i. Sv. Petar
+i. Svetac
+i. Svilan
+i. Tovarjević
+i. Trasorka
+i. Tukošćak
+i. Ugljan
+i. Unije
+i. Veli & Mali Lastovljan
+i. Veli Barjak
+i. Veli Lastovljan
+i. Veliki Brijuni
+i. Vir (Torovi)
+i. Vir (Vir)
+i. Vis
+i. Vis (Brguljac)
+i. Vis (Brguljac, Milna)
+i. Vis (Brguljac, Podstražje)
+i. Vis (Hum)
+i. Vis (Komiža)
+i. Vis (Komiža, Hum)
+i. Vis (Milna)
+i. Vis (Milna, Podstražje)
+i. Vis (Podstražje)
+i. Vis (Vis)
+i. Vis (Vis, Komiža)
+i. Zabodarski
+i. Čdrilca
+i. Čiovo
+i. Čiovo (Okrug Gornji)
+i. Šipan
+i. Školjić
+near Biograd
+near Domašinec
+near Donji Miholjac
+near Draga
+near Flengi
+near Gruž
+near Klis
+near Latin
+near Makarska
+near Našice
+near Slavonski Brod
+near Solin
+near Trsteno
+near Veliki Zavižan
+near Zadar
+near flevrske
+near Čibača
+Čegar
+Čvrljevo
+Đurđevac
+Šestine
+Šijana
+Špišić Bukovica
+Štrigova

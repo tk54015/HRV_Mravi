@@ -1,0 +1,59 @@
+/* Osnovni stilovi za mapu i sidebar */
+#map-container {
+  display: flex;
+}
+
+#map {
+  width: 75%;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 25%;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+#toggle-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none; 
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#toggle-button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 15px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.potporodica-title, .rod-title {
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rod-block {
+  margin-left: 15px;
+}

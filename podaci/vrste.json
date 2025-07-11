@@ -1,0 +1,5939 @@
+[
+  {
+    "vrsta": "Amblyopone denticulata",
+    "rod": "Amblyopone",
+    "potporodica": "Amblyoponinae",
+    "lokacije": [
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Cryptopone ochracea",
+    "rod": "Cryptopone",
+    "potporodica": "Ponerinae",
+    "lokacije": [
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "i. Hvar"
+      }
+    ]
+  },
+  {
+    "vrsta": "Hypoponera eduardi",
+    "rod": "Hypoponera",
+    "potporodica": "Ponerinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Ponera coarctata",
+    "rod": "Ponera",
+    "potporodica": "Ponerinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Veruda"
+      },
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Narta"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Milanovac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Ponera testacea",
+    "rod": "Ponera",
+    "potporodica": "Ponerinae",
+    "lokacije": [
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Gospić"
+      },
+      {
+        "grad": "Kaštel Sućurac"
+      },
+      {
+        "grad": "Bjelina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium algiricum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium melinum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Konavle"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster epirotes",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "Bokanjac"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Vinišće"
+      },
+      {
+        "grad": "i. Čiovo"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Kaštel Lukšić"
+      },
+      {
+        "grad": "Lećevica"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Seoca"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Kopište"
+      },
+      {
+        "grad": "Donja Vrućica"
+      },
+      {
+        "grad": "Trsteno"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "i. Šipan"
+      },
+      {
+        "grad": "i. Koločep"
+      },
+      {
+        "grad": "Srd"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "near Čibača"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "Konavle"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster finzii",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Teradige"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "Čegar"
+      },
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "Vrpolje"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "Žrnovnica"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "Gornja Vrućica"
+      },
+      {
+        "grad": "i. Bisaće"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Koločep"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Čibača"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster ionia",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk (near Krk"
+      },
+      {
+        "grad": "between Skrbčići and Malinska)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Nin"
+      },
+      {
+        "grad": "Bibinje"
+      },
+      {
+        "grad": "Babindub"
+      },
+      {
+        "grad": "i. Ugljan"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "near Sinj"
+      },
+      {
+        "grad": "Trogir"
+      },
+      {
+        "grad": "i. Čiovo"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Kaštel Stari"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Sv. Klement"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Otok"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "i. Mljet"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "i. Lokrum"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster muelleriana",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "Sukošan"
+      },
+      {
+        "grad": "Trsteno"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster splendida",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Bačvice"
+      },
+      {
+        "grad": "i. Vis"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster subterranea",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Oskorušno"
+      },
+      {
+        "grad": "Konavle"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Aphaenogaster subterraneoides",
+    "rod": "Aphaenogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Hvar"
+      }
+    ]
+  },
+  {
+    "vrsta": "Chalepoxenus muellerianus",
+    "rod": "Chalepoxenus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Ljubač"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "near Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Crematogaster ionia",
+    "rod": "Crematogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Osijek"
+      }
+    ]
+  },
+  {
+    "vrsta": "Crematogaster schmidti",
+    "rod": "Crematogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Livade"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Smilčić"
+      },
+      {
+        "grad": "Dugi otok"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "Podstrilje"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "Kučište"
+      },
+      {
+        "grad": "Oskorušno"
+      },
+      {
+        "grad": "Kuna"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "i. Koločep"
+      },
+      {
+        "grad": "near Gruž"
+      },
+      {
+        "grad": "near Čibača"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "i. Daksa"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Konavoski Dvori"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Našice"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Crematogaster scutellaris",
+    "rod": "Crematogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "near Livade"
+      },
+      {
+        "grad": "Vrsar - Limski kanal"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Crikvenica"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Sv. Ilija"
+      },
+      {
+        "grad": "Banjol"
+      },
+      {
+        "grad": "Dundo"
+      },
+      {
+        "grad": "Lopar"
+      },
+      {
+        "grad": "near Blasić"
+      },
+      {
+        "grad": "Rt Zidine)"
+      },
+      {
+        "grad": "i. Goli"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "i. Susak"
+      },
+      {
+        "grad": "i. Kozjak"
+      },
+      {
+        "grad": "i. Greben"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Nin"
+      },
+      {
+        "grad": "Arbanasi"
+      },
+      {
+        "grad": "Sukošan"
+      },
+      {
+        "grad": "i. Piškera"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "near Split"
+      },
+      {
+        "grad": "near Makarska"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Trogir"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač (Kneza Ravan"
+      },
+      {
+        "grad": "Bol"
+      },
+      {
+        "grad": "Nerežišća)"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Sv. Klement"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Mali & Veli Parčan"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "i. Kopište"
+      },
+      {
+        "grad": "i. Veli Lastovljan"
+      },
+      {
+        "grad": "i. Mrčara"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Crematogaster sordidula",
+    "rod": "Crematogaster",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Pićan"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Veruda"
+      },
+      {
+        "grad": "Volosko"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Oruda"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Zabodarski"
+      },
+      {
+        "grad": "i. Trasorka"
+      },
+      {
+        "grad": "i. Kozjak"
+      },
+      {
+        "grad": "i. Grujica"
+      },
+      {
+        "grad": "i. Orjule"
+      },
+      {
+        "grad": "i. Sv. Petar"
+      },
+      {
+        "grad": "i. Greben"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Modrić"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Krmčina"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Tukošćak"
+      },
+      {
+        "grad": "Vinišće"
+      },
+      {
+        "grad": "Labin"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Podašpilje"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "Donja & Gornja Vrućica"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "i. Palagruža"
+      },
+      {
+        "grad": "i. Mljet"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "near Gruž"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "i. Lopud"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus dalmaticus",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Krapan"
+      },
+      {
+        "grad": "near Flengi"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Šibenik"
+      },
+      {
+        "grad": "Gornje Ogorje"
+      },
+      {
+        "grad": "Vinišće"
+      },
+      {
+        "grad": "Trnbusi"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Korčula (Pupnat"
+      },
+      {
+        "grad": "Žrnovo)"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus fallax",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Poreč"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Kuna"
+      },
+      {
+        "grad": "Srebreno"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Štrigova"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus herculeanus",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Riječina"
+      },
+      {
+        "grad": "Skrad"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Mrzla vodica"
+      },
+      {
+        "grad": "Kučelj"
+      },
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "? Zagreb"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "? Krapina"
+      },
+      {
+        "grad": "Ivanščica"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus lateralis",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Umag"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "Bokanjac"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Krka"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Kaštel Sućurac"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Makarska"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač (Kneza Ravan"
+      },
+      {
+        "grad": "Nerežišća"
+      },
+      {
+        "grad": "Bol"
+      },
+      {
+        "grad": "Supetar)"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Hvar (Brusje"
+      },
+      {
+        "grad": "Sućuraj)"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Korčula (Pupnat"
+      },
+      {
+        "grad": "Žrnovo)"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Korčula (near Račišće"
+      },
+      {
+        "grad": "near Vela Luka)"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "i. Veli Lastovljan"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "i. Šipan"
+      },
+      {
+        "grad": "near Trsteno"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "i. Daksa"
+      },
+      {
+        "grad": "Gruž"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus ligniperda",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Riječina"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Mrzla vodica"
+      },
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "Ravna Gora"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Ličko polje"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "near Veliki Zavijan"
+      },
+      {
+        "grad": "Mali Halan"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "Šibenik"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Stojdraga"
+      },
+      {
+        "grad": "Samobor"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Kraljičin Zdenac"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Medvednica"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Štrigova"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus piceus",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "Umag"
+      },
+      {
+        "grad": "Kršan"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Dundo"
+      },
+      {
+        "grad": "near Sv. Ilija"
+      },
+      {
+        "grad": "Rt Zidine)"
+      },
+      {
+        "grad": "i. Dolin"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Oruda"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Kozjak"
+      },
+      {
+        "grad": "i. Orjule"
+      },
+      {
+        "grad": "i. Trasorka"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "Kotlenice"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Seoca"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "Biokovo"
+      },
+      {
+        "grad": "i. Mali Parćan"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus truncatus",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Livade"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Knin"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Camponotus vagus",
+    "rod": "Camponotus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Umag"
+      },
+      {
+        "grad": "Lovran - Mošćenička Draga"
+      },
+      {
+        "grad": "Novigrad"
+      },
+      {
+        "grad": "Vozilići"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Ponikve"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk (Lakmartin"
+      },
+      {
+        "grad": "Njivice)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Bibinje"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Ilica Planina"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Karlovac"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Gračani"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Plješevica"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Našice"
+      },
+      {
+        "grad": "Krčenik"
+      },
+      {
+        "grad": "Slatina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius alienus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "near Livade"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač (Bol"
+      },
+      {
+        "grad": "Milna)"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "i. Lokrum"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius brunneus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "near Livade"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač (Bol"
+      },
+      {
+        "grad": "Milna)"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "i. Lokrum"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius emarginatus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "near Livade"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Sušak"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Brač (Bol"
+      },
+      {
+        "grad": "Milna)"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "i. Lokrum"
+      }
+    ]
+  },
+  {
+    "vrsta": "Formica cunicularia",
+    "rod": "Formica",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Gorski kotar"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius alienus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Lupoglav"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Delnice"
+      },
+      {
+        "grad": "i. Krk (Krk"
+      },
+      {
+        "grad": "near Baška)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Sv. Ilija"
+      },
+      {
+        "grad": "Banjol"
+      },
+      {
+        "grad": "Dundo"
+      },
+      {
+        "grad": "Lopar"
+      },
+      {
+        "grad": "Rt Zidine"
+      },
+      {
+        "grad": "Rt Stojan)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "Gospić"
+      },
+      {
+        "grad": "Obrovac"
+      },
+      {
+        "grad": "Karin"
+      },
+      {
+        "grad": "Babindub"
+      },
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Benkovac"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Kotlenice"
+      },
+      {
+        "grad": "Mosor"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Trsteno"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "Kupari"
+      },
+      {
+        "grad": "Cavtat"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "flurfievac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius bicornis",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Kraljičin Zdenac"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius brunneus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Mosor"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius distinguendus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Sv. Stjepan - Livade"
+      },
+      {
+        "grad": "Gradole"
+      },
+      {
+        "grad": "i. Brijuni"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "between Rab and Banjol"
+      },
+      {
+        "grad": "Lopar"
+      },
+      {
+        "grad": "Stanišće)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "Perušić"
+      },
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Lovreć"
+      },
+      {
+        "grad": "Podašpilje"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Konjščina"
+      },
+      {
+        "grad": "Javorovac"
+      },
+      {
+        "grad": "Narta"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius emarginatus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "Umag"
+      },
+      {
+        "grad": "Mune"
+      },
+      {
+        "grad": "i. Tovarjević"
+      },
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Opatija"
+      },
+      {
+        "grad": "Lovran"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Alan"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Susak"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "Sukošan"
+      },
+      {
+        "grad": "Privlaka"
+      },
+      {
+        "grad": "i. Piškera"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "Biokovo"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Mrčara"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "Sv. Ilija"
+      },
+      {
+        "grad": "Metković"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Srd"
+      },
+      {
+        "grad": "Čibača"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "Konavle"
+      },
+      {
+        "grad": "Medvednica"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Galdovo"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Javorovac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      },
+      {
+        "grad": "Jasenovača"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius flavus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Zlobin"
+      },
+      {
+        "grad": "Delnice"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Plavnik"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "near Sv. Ilija)"
+      },
+      {
+        "grad": "i. Male Srakane"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Mali Halan"
+      },
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Šibenik"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Kalnik"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius fuliginosus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius lasioides",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Sukošan"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius mixtus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "i. Rab (Banjol"
+      },
+      {
+        "grad": "near Lopar)"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "i. Male Srakane"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius niger",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "Gornje Ogorje"
+      },
+      {
+        "grad": "Korčula"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius umbratus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Knin"
+      },
+      {
+        "grad": "Dalmacija"
+      }
+    ]
+  },
+  {
+    "vrsta": "Leptothorax acervorum",
+    "rod": "Leptothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Mrzla vodica"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Leptothorax muscorum",
+    "rod": "Leptothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Manica rubida",
+    "rod": "Manica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Messor structor",
+    "rod": "Messor",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Monomorium pharaonis",
+    "rod": "Monomorium",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Osijek"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmica rubra",
+    "rod": "Myrmica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pheidole pallidula",
+    "rod": "Pheidole",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Plagiolepis pygmaea",
+    "rod": "Plagiolepis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Polyergus rufescens",
+    "rod": "Polyergus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Prenolepis nitens",
+    "rod": "Prenolepis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium croaticum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Solenopsis fugax",
+    "rod": "Solenopsis",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "near flevrske"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "i. Hvar"
+      }
+    ]
+  },
+  {
+    "vrsta": "Stenamma debile",
+    "rod": "Stenamma",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Tovarjević"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "i. Krk (near Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Cres"
+      }
+    ]
+  },
+  {
+    "vrsta": "Strongylognathus testaceus",
+    "rod": "Strongylognathus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax affinis",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Lupoglav"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax algiricus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Vir"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax angustulus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Rijeka"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax clypeatus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax crassispinus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Mune"
+      },
+      {
+        "grad": "near Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Plitvice"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Podsused"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Javorovac"
+      },
+      {
+        "grad": "Virovitica"
+      },
+      {
+        "grad": "Kolac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax exilis",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Palacol"
+      },
+      {
+        "grad": "i. Trasorka"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Ljubač"
+      },
+      {
+        "grad": "Jasenice"
+      },
+      {
+        "grad": "near Biograd"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Veli Barjak"
+      },
+      {
+        "grad": "i. Greben"
+      },
+      {
+        "grad": "i. Mali Parćan"
+      },
+      {
+        "grad": "i. Kamik"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Jabuka"
+      },
+      {
+        "grad": "i. Bisaće"
+      },
+      {
+        "grad": "i. Kopište"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax flavicornis",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "Ljubač"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "near Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax graecus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Jabuka"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax interruptus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "near Gruž"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax italicus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "near Poreč"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax lichtensteini",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "i. Tovarjević"
+      },
+      {
+        "grad": "Mošćenička Draga"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "near Rovinj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Banjol)"
+      },
+      {
+        "grad": "Ljubač"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax nigriceps",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "Biokovo"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax parvulus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Cicilinovo"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Sukošan"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "Gornja Vrućica"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax pelagosanus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Palagruža"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax recedens",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Ljubač"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "i. Jabuka"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax rottenbergii",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Kozjak"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax sordidulus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Gruž"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax tuberum",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Učka"
+      },
+      {
+        "grad": "Trsat"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Podsused"
+      },
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Temnothorax unifasciatus",
+    "rod": "Temnothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Bijelac"
+      },
+      {
+        "grad": "near Gruž"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Tetramorium caespitum",
+    "rod": "Tetramorium",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Tetramorium impurum",
+    "rod": "Tetramorium",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Sv. Stjepan - Livade"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Momjan"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "i. Rab (near Sv. Ilija"
+      },
+      {
+        "grad": "Kamenjak)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "Modrić"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Bokanjac"
+      },
+      {
+        "grad": "Bibinje"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "i. Svilan"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "i. Sv. Klement"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Mljet"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Otok"
+      },
+      {
+        "grad": "Sv. Ilija"
+      },
+      {
+        "grad": "i. Šipan"
+      },
+      {
+        "grad": "i. Olipa"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "i. Daksa"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Srebreno"
+      },
+      {
+        "grad": "Cavtat"
+      }
+    ]
+  },
+  {
+    "vrsta": "Bothriomyrmex meridionalis",
+    "rod": "Bothriomyrmex",
+    "potporodica": "Dolichoderinae",
+    "lokacije": [
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "i. Brač"
+      }
+    ]
+  },
+  {
+    "vrsta": "Dolichoderus quadripunctatus",
+    "rod": "Dolichoderus",
+    "potporodica": "Dolichoderinae",
+    "lokacije": [
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Stružeč"
+      },
+      {
+        "grad": "Slatina"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Liometopum microcephalum",
+    "rod": "Liometopum",
+    "potporodica": "Dolichoderinae",
+    "lokacije": [
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Javorovac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Tapinoma erraticum",
+    "rod": "Tapinoma",
+    "potporodica": "Dolichoderinae",
+    "lokacije": [
+      {
+        "grad": "Mune"
+      },
+      {
+        "grad": "Pićan"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "near Poreč"
+      },
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "near Draga"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Trsat"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Prezid"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Krk (Krk"
+      },
+      {
+        "grad": "near Sv. Roko)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "near Lopar"
+      },
+      {
+        "grad": "near Banjol)"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Galijola"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Pridraga"
+      },
+      {
+        "grad": "Koćino"
+      },
+      {
+        "grad": "Diklo"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "Privlaka"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Svrljevo"
+      },
+      {
+        "grad": "Žrnovnica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Kozjak"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "Podašpilje"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Sv. Klement"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "i. Šipan"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Konavle"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Slatina"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      },
+      {
+        "grad": "Pleternica"
+      },
+      {
+        "grad": "Valpovo - Jugovača"
+      }
+    ]
+  },
+  {
+    "vrsta": "Tapinoma nigerrimum",
+    "rod": "Tapinoma",
+    "potporodica": "Dolichoderinae",
+    "lokacije": [
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Promina"
+      },
+      {
+        "grad": "Bokanjac"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "i. Šipan"
+      },
+      {
+        "grad": "i. Lopud"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Čibača"
+      }
+    ]
+  },
+  {
+    "vrsta": "Paratrechina vividula",
+    "rod": "Paratrechina",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Zagreb"
+      }
+    ]
+  },
+  {
+    "vrsta": "Cataglyphis aenescens",
+    "rod": "Cataglyphis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Diklo"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Lećevica"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "i. Brač"
+      }
+    ]
+  },
+  {
+    "vrsta": "Cataglyphis nodus",
+    "rod": "Cataglyphis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Metković"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lepisiota frauenfeldi",
+    "rod": "Lepisiota",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "Privlaka"
+      },
+      {
+        "grad": "i. Piškera"
+      },
+      {
+        "grad": "near Sinj"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Kaštel Sućurac"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Ždrilca"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Brusnik"
+      },
+      {
+        "grad": "i. Palagruža"
+      },
+      {
+        "grad": "Mljet"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Srd"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "i. Daksa"
+      },
+      {
+        "grad": "Cavtat"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lepisiota nigra",
+    "rod": "Lepisiota",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Podašpilje"
+      }
+    ]
+  },
+  {
+    "vrsta": "Polyergus rufescens",
+    "rod": "Polyergus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Kortivi"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      }
+    ]
+  },
+  {
+    "vrsta": "Prenolepis nitens",
+    "rod": "Prenolepis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Momjan"
+      },
+      {
+        "grad": "Lupoglav"
+      },
+      {
+        "grad": "Raška"
+      },
+      {
+        "grad": "Opatija"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "i. Veliki Brijuni"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Sv. Petar"
+      },
+      {
+        "grad": "i. Ilovik"
+      },
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Kaštel Lukšić"
+      },
+      {
+        "grad": "Kaštel Sućurac"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Gornja Vrućica"
+      },
+      {
+        "grad": "Oskorušno"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Šestine"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium algiricum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium croaticum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium melinum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Konavle"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pyramica argiola",
+    "rod": "Pyramica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Zemunik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pyramica baudueri",
+    "rod": "Pyramica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "? Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmecina graminicola",
+    "rod": "Myrmecina",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "Plitvice"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmica rubra",
+    "rod": "Myrmica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "? Senj"
+      },
+      {
+        "grad": "Velebit"
+      },
+      {
+        "grad": "? i. Hvar"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "? Štrigova"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmoxenus corsicus",
+    "rod": "Myrmoxenus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Momjan"
+      },
+      {
+        "grad": "near Rovinj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Rab"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmoxenus kraussei",
+    "rod": "Myrmoxenus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "i. Pag"
+      },
+      {
+        "grad": "Paklenica"
+      }
+    ]
+  },
+  {
+    "vrsta": "Myrmoxenus ravouxi",
+    "rod": "Myrmoxenus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Dalmacija"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pheidole pallidula",
+    "rod": "Pheidole",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Savudrija"
+      },
+      {
+        "grad": "Umag"
+      },
+      {
+        "grad": "Tar"
+      },
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Pićan"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Prezid"
+      },
+      {
+        "grad": "Crikvenica"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "i. Krk"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "i. Krk (Krk"
+      },
+      {
+        "grad": "Jurandvor"
+      },
+      {
+        "grad": "near Sv. Roko"
+      },
+      {
+        "grad": "Ponikva)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Sv. Ilija"
+      },
+      {
+        "grad": "Kamenjak"
+      },
+      {
+        "grad": "near Lopar"
+      },
+      {
+        "grad": "Rt Zidine"
+      },
+      {
+        "grad": "Rt Stojan)"
+      },
+      {
+        "grad": "i. Goli"
+      },
+      {
+        "grad": "i. Dolin"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "Velika Kapela"
+      },
+      {
+        "grad": "near Zadar"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Tukošćak"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "i. Vir"
+      },
+      {
+        "grad": "Bjelina"
+      },
+      {
+        "grad": "Sućci"
+      },
+      {
+        "grad": "Skradin"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Čvrljevo"
+      },
+      {
+        "grad": "Gornje Vinovo"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "near Split"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "Konjsko"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Podgora"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Jabuka"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Kamenjak"
+      },
+      {
+        "grad": "i. Kamik"
+      },
+      {
+        "grad": "i. Biševo"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Korčula (Lumbarda"
+      },
+      {
+        "grad": "Kučište)"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Kopište"
+      },
+      {
+        "grad": "i. Bijelac"
+      },
+      {
+        "grad": "i. Mrčara"
+      },
+      {
+        "grad": "i. Veli & Mali Lastovljan"
+      },
+      {
+        "grad": "i. Mljet"
+      },
+      {
+        "grad": "Gornja & Donja Vrućica"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "i. Olipa"
+      },
+      {
+        "grad": "Slano"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "i. Lopud"
+      },
+      {
+        "grad": "Trsteno"
+      },
+      {
+        "grad": "Rijeka Dubrovačka"
+      },
+      {
+        "grad": "Srd"
+      },
+      {
+        "grad": "Čibača"
+      },
+      {
+        "grad": "i. Lokrum"
+      }
+    ]
+  },
+  {
+    "vrsta": "Plagiolepis pygmaea",
+    "rod": "Plagiolepis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Podašpilje"
+      }
+    ]
+  },
+  {
+    "vrsta": "Polyergus rufescens",
+    "rod": "Polyergus",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Kortivi"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      }
+    ]
+  },
+  {
+    "vrsta": "Prenolepis nitens",
+    "rod": "Prenolepis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Rovinj"
+      },
+      {
+        "grad": "Momjan"
+      },
+      {
+        "grad": "Lupoglav"
+      },
+      {
+        "grad": "Raška"
+      },
+      {
+        "grad": "Opatija"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "i. Veliki Brijuni"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Vežica"
+      },
+      {
+        "grad": "Bakar"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Lošinj"
+      },
+      {
+        "grad": "i. Sv. Petar"
+      },
+      {
+        "grad": "i. Ilovik"
+      },
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "i. Dugi otok"
+      },
+      {
+        "grad": "Kaštel Lukšić"
+      },
+      {
+        "grad": "Kaštel Sućurac"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Gornja Vrućica"
+      },
+      {
+        "grad": "Oskorušno"
+      },
+      {
+        "grad": "Dubrovnik"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Lapad"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Šestine"
+      },
+      {
+        "grad": "Sljeme"
+      },
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium algiricum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "near Dubrovnik"
+      },
+      {
+        "grad": "Dubrovnik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium croaticum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Šijana"
+      },
+      {
+        "grad": "Orehovica"
+      },
+      {
+        "grad": "Draga"
+      },
+      {
+        "grad": "Novi Vinodolski"
+      },
+      {
+        "grad": "Senj"
+      },
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "Bjelolasica"
+      },
+      {
+        "grad": "Leska"
+      },
+      {
+        "grad": "i. Krk (Ponikva"
+      },
+      {
+        "grad": "between Krk and Malinska)"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Lopar)"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "Paklenica"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gata"
+      },
+      {
+        "grad": "Ozalj"
+      },
+      {
+        "grad": "Prekrižje"
+      },
+      {
+        "grad": "Zaprešić"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Krapina"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Štrigova"
+      },
+      {
+        "grad": "Bregi"
+      },
+      {
+        "grad": "Hlebine"
+      },
+      {
+        "grad": "Novigrad Podravski"
+      },
+      {
+        "grad": "Kutjevo"
+      },
+      {
+        "grad": "near Našice"
+      },
+      {
+        "grad": "near Donji Miholjac"
+      },
+      {
+        "grad": "near Slavonski Brod"
+      }
+    ]
+  },
+  {
+    "vrsta": "Proceratium melinum",
+    "rod": "Proceratium",
+    "potporodica": "Proceratiinae",
+    "lokacije": [
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "Split"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "Cavtat"
+      }
+    ]
+  },
+  {
+    "vrsta": "Monomorium pharaonis",
+    "rod": "Monomorium",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "Rijeka"
+      },
+      {
+        "grad": "Zagreb"
+      }
+    ]
+  },
+  {
+    "vrsta": "Messor capitatus",
+    "rod": "Messor",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Markovac"
+      },
+      {
+        "grad": "Vodnjan"
+      },
+      {
+        "grad": "Limski kanal"
+      },
+      {
+        "grad": "Pula"
+      },
+      {
+        "grad": "i. Rab"
+      },
+      {
+        "grad": "i. Rab (Rab"
+      },
+      {
+        "grad": "Banjol"
+      },
+      {
+        "grad": "Lopar"
+      },
+      {
+        "grad": "Jamina)"
+      },
+      {
+        "grad": "i. Goli"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Cres"
+      },
+      {
+        "grad": "i. Unije"
+      },
+      {
+        "grad": "i. Grujica"
+      },
+      {
+        "grad": "i. Pag (Novalja"
+      },
+      {
+        "grad": "Lun)"
+      },
+      {
+        "grad": "Zadar"
+      },
+      {
+        "grad": "Babindub"
+      },
+      {
+        "grad": "Privlaka"
+      },
+      {
+        "grad": "i. Dugi otok (Sali"
+      },
+      {
+        "grad": "Salsko polje)"
+      },
+      {
+        "grad": "Veliki Drvenik"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "Solin"
+      },
+      {
+        "grad": "Marjan"
+      },
+      {
+        "grad": "Klis"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "Dugopolje"
+      },
+      {
+        "grad": "i. Brač (Bol"
+      },
+      {
+        "grad": "Supetar"
+      },
+      {
+        "grad": "Milna)"
+      },
+      {
+        "grad": "i. Brač"
+      },
+      {
+        "grad": "i. Hvar (Jelsa"
+      },
+      {
+        "grad": "Hvar)"
+      },
+      {
+        "grad": "i. Sv. Klement"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis"
+      },
+      {
+        "grad": "i. Vis (Vis"
+      },
+      {
+        "grad": "Komiža)"
+      },
+      {
+        "grad": "i. Svetac"
+      },
+      {
+        "grad": "i. Sušac"
+      },
+      {
+        "grad": "i. Lastovo"
+      },
+      {
+        "grad": "i. Palagruža"
+      },
+      {
+        "grad": "i. Korčula"
+      },
+      {
+        "grad": "i. Mljet"
+      },
+      {
+        "grad": "Kučište"
+      },
+      {
+        "grad": "Orebić"
+      },
+      {
+        "grad": "Trpanj"
+      },
+      {
+        "grad": "i. Olipa"
+      },
+      {
+        "grad": "i. Jakljan"
+      },
+      {
+        "grad": "i. Lopud"
+      },
+      {
+        "grad": "i. Koločep"
+      },
+      {
+        "grad": "Gruž"
+      },
+      {
+        "grad": "near Čibača"
+      },
+      {
+        "grad": "i. Lokrum"
+      },
+      {
+        "grad": "Lapad"
+      }
+    ]
+  },
+  {
+    "vrsta": "Formicoxenus nitidulus",
+    "rod": "Formicoxenus",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Mune"
+      },
+      {
+        "grad": "Lupoglav"
+      },
+      {
+        "grad": "Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Leptothorax acervorum",
+    "rod": "Leptothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Velika Kapela"
+      }
+    ]
+  },
+  {
+    "vrsta": "Leptothorax muscorum",
+    "rod": "Leptothorax",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "Velika Kapela"
+      }
+    ]
+  },
+  {
+    "vrsta": "Manica rubida",
+    "rod": "Manica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Lokve"
+      },
+      {
+        "grad": "Zlobin"
+      },
+      {
+        "grad": "near Čabar"
+      },
+      {
+        "grad": "Kućelj"
+      },
+      {
+        "grad": "Jasenak"
+      },
+      {
+        "grad": "Zagreb"
+      }
+    ]
+  },
+  {
+    "vrsta": "Messor structor",
+    "rod": "Messor",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Fužine"
+      },
+      {
+        "grad": "i. Krk (Krk"
+      },
+      {
+        "grad": "near Malinska)"
+      },
+      {
+        "grad": "Zagreb"
+      },
+      {
+        "grad": "Pregrada"
+      },
+      {
+        "grad": "Križevac"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius bicornis",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Mosor"
+      }
+    ]
+  },
+  {
+    "vrsta": "Lasius distinguendus",
+    "rod": "Lasius",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Podašpilje"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pyramica argiola",
+    "rod": "Pyramica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Zemunik"
+      }
+    ]
+  },
+  {
+    "vrsta": "Pyramica baudueri",
+    "rod": "Pyramica",
+    "potporodica": "Myrmicinae",
+    "lokacije": [
+      {
+        "grad": "Zemunik"
+      },
+      {
+        "grad": "Kistanje"
+      },
+      {
+        "grad": "Kaštela"
+      },
+      {
+        "grad": "? Krapina"
+      }
+    ]
+  },
+  {
+    "vrsta": "Paratrechina vividula",
+    "rod": "Paratrechina",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Zagreb"
+      }
+    ]
+  },
+  {
+    "vrsta": "Cataglyphis aenescens",
+    "rod": "Cataglyphis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Diklo"
+      },
+      {
+        "grad": "Lišane Ostrovičke"
+      },
+      {
+        "grad": "Lećevica"
+      },
+      {
+        "grad": "between Klis and Solin"
+      },
+      {
+        "grad": "i. Brač"
+      }
+    ]
+  },
+  {
+    "vrsta": "Cataglyphis nodus",
+    "rod": "Cataglyphis",
+    "potporodica": "Formicinae",
+    "lokacije": [
+      {
+        "grad": "Dalmacija"
+      },
+      {
+        "grad": "i. Hvar"
+      },
+      {
+        "grad": "Metković"
+      }
+    ]
+  }
+]

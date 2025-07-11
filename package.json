@@ -1,0 +1,14 @@
+{
+  "name": "HRV_Mravi",
+  "version": "1.0.0",
+  "description": "Web karta za lokacije mrava u Hrvatskoj",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Tvoje ime",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
