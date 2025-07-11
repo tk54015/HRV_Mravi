@@ -57,3 +57,57 @@ input[type="checkbox"] {
 .rod-block {
   margin-left: 15px;
 }
+
+#city-search-container {
+  position: absolute;
+  top: 15px;
+  left: 47px; /* 15px + 2cm (cca 32px) = 47px */
+  z-index: 1000;
+  background: white;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  width: 170px; /* malo manje */
+}
+#city-search {
+  width: 100%;
+  padding: 4px;
+  font-size: 14px;
+}
+#city-suggestions {
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 0 0 8px 8px;
+  background: white;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 32px;
+  z-index: 1001;
+  font-size: 14px;
+}
+#city-suggestions div {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+#city-suggestions div:hover {
+  background: #f1f1f1;
+}
+
+/* Popup vrste stil */
+.popup-vrste-list {
+  font-size: 13px;
+  max-height: 120px;
+  overflow-y: auto;
+  margin: 0;
+  padding-left: 18px;
+}
+.popup-vrste-list li {
+  margin: 2px 0;
+}
+.popup-vrste-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}

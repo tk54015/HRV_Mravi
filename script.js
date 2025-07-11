@@ -417,19 +417,205 @@ function generateSpeciesListBracko(data) {
   });
 }
 
-// Funkcija za dohvat svih vrsta za određeni grad
+// CSS dio
+const style = document.createElement('style');
+style.textContent = `
+  .potporodica-title, .rod-title {
+    user-select: none;
+  }
+  .potporodica-title span, .rod-title span {
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+  }
+`;
+document.head.appendChild(style);
+
+// Nova funkcija za generiranje popisa vrsta
+function generateSpeciesListBracko(data) {
+  const container = document.getElementById('species-list');
+  container.innerHTML = '';
+
+  // Opcija za maknuti sve markere
+  const noneDiv = document.createElement('div');
+  noneDiv.innerHTML = `
+    <input type="radio" name="species" id="none" onchange="filterData()" checked>
+    <label for="none"><i>Makni sve markere</i></label>
+  `;
+  container.appendChild(noneDiv);
+
+  // Grupiraj po potporodici i rodu
+  const potporodice = {};
+  data.forEach(obj => {
+    if (!potporodice[obj.potporodica]) potporodice[obj.potporodica] = {};
+    if (!potporodice[obj.potporodica][obj.rod]) potporodice[obj.potporodica][obj.rod] = [];
+    potporodice[obj.potporodica][obj.rod].push(obj);
+  });
+
+  Object.entries(potporodice).forEach(([potporodica, rodovi]) => {
+    const potDiv = document.createElement('div');
+    potDiv.className = 'potporodica-block';
+    const potTitle = document.createElement('div');
+    potTitle.className = 'potporodica-title';
+    const potArrow = document.createElement('span');
+    potArrow.textContent = '►';
+    potArrow.style.marginRight = '6px';
+    potTitle.appendChild(potArrow);
+    potTitle.appendChild(document.createTextNode(potporodica));
+    potDiv.appendChild(potTitle);
+
+    let potOpen = false;
+
+    Object.entries(rodovi).forEach(([rod, vrste]) => {
+      const rodDiv = document.createElement('div');
+      rodDiv.className = 'rod-block';
+      const rodTitle = document.createElement('div');
+      rodTitle.className = 'rod-title';
+      const rodArrow = document.createElement('span');
+      rodArrow.textContent = '►';
+      rodArrow.style.marginRight = '6px';
+      rodTitle.appendChild(rodArrow);
+      rodTitle.appendChild(document.createTextNode(rod));
+      rodDiv.appendChild(rodTitle);
+
+      // Vrste (radio gumbi)
+      const vrsteUl = document.createElement('ul');
+      vrste.forEach(vrstaObj => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <input type="radio" name="species" id="${vrstaObj.vrsta}" onchange="filterData()">
+          <label for="${vrstaObj.vrsta}">${vrstaObj.vrsta}</label>
+        `;
+        vrsteUl.appendChild(li);
+      });
+      rodDiv.appendChild(vrsteUl);
+
+      // Otvaranje/zatvaranje rodova
+      vrsteUl.style.display = 'none';
+      let rodOpen = false;
+      rodTitle.style.cursor = 'pointer';
+      rodTitle.onclick = () => {
+        if (rodOpen) {
+          vrsteUl.style.display = 'none';
+          rodArrow.textContent = '►';
+          rodOpen = false;
+        } else {
+          // Zatvori sve vrsteUl u ovom potDiv
+          Array.from(rodDiv.parentNode.children).forEach(child => {
+            if (child.querySelector && child.querySelector('ul')) {
+              child.querySelector('ul').style.display = 'none';
+              if (child.querySelector('.rod-title span')) {
+                child.querySelector('.rod-title span').textContent = '►';
+              }
+              child.rodOpen = false;
+            }
+          });
+          vrsteUl.style.display = 'block';
+          rodArrow.textContent = '▼';
+          rodOpen = true;
+        }
+      };
+
+      potDiv.appendChild(rodDiv);
+    });
+
+    // Otvaranje/zatvaranje potporodica
+    Array.from(potDiv.children).forEach((child, i) => {
+      if (i > 0) child.style.display = 'none';
+    });
+    potTitle.style.cursor = 'pointer';
+    potTitle.onclick = () => {
+      if (potOpen) {
+        Array.from(potDiv.children).forEach((child, i) => {
+          if (i > 0) child.style.display = 'none';
+        });
+        potArrow.textContent = '►';
+        potOpen = false;
+      } else {
+        // Zatvori sve ostale potporodice
+        Array.from(container.children).forEach(potDiv2 => {
+          if (potDiv2 !== potDiv) {
+            Array.from(potDiv2.children).forEach((child, i) => {
+              if (i > 0) child.style.display = 'none';
+            });
+            if (potDiv2.querySelector('.potporodica-title span')) {
+              potDiv2.querySelector('.potporodica-title span').textContent = '►';
+            }
+            potDiv2.potOpen = false;
+          }
+        });
+        Array.from(potDiv.children).forEach((child, i) => {
+          if (i > 0) child.style.display = 'block';
+        });
+        potArrow.textContent = '▼';
+        potOpen = true;
+      }
+    };
+
+    container.appendChild(potDiv);
+  });
+}
+
+// --- Nova tražilica gradova s padajućim popisom ---
+const cityInput = document.getElementById('city-search');
+const citySuggestions = document.getElementById('city-suggestions');
+
+cityInput.addEventListener('input', function(e) {
+  const query = e.target.value.trim().toLowerCase();
+  citySuggestions.innerHTML = '';
+  if (!query) {
+    citySuggestions.classList.add('hidden');
+    return;
+  }
+  // Pronađi gradove koji sadrže upit
+  const gradovi = Object.keys(gradoviDict).filter(g =>
+    g.toLowerCase().includes(query)
+  );
+  if (gradovi.length === 0) {
+    citySuggestions.classList.add('hidden');
+    return;
+  }
+  gradovi.forEach(grad => {
+    const div = document.createElement('div');
+    div.textContent = grad;
+    div.onclick = () => {
+      cityInput.value = grad;
+      citySuggestions.classList.add('hidden');
+      // Centriraj na grad i prikaži popup s vrstama
+      const { lat, lng } = gradoviDict[grad];
+      map.setView([lat, lng], 11);
+      const popup = L.popup()
+        .setLatLng([lat, lng])
+        .setContent(`<b>Grad:</b> ${grad}<br>${vrstePoGraduPopup(grad)}`);
+      popup.openOn(map);
+    };
+    citySuggestions.appendChild(div);
+  });
+  citySuggestions.classList.remove('hidden');
+});
+
+// Sakrij prijedloge kad klikneš izvan tražilice
+document.addEventListener('click', function(e) {
+  if (!cityInput.contains(e.target) && !citySuggestions.contains(e.target)) {
+    citySuggestions.classList.add('hidden');
+  }
+});
+
+// --- Popup vrste: samo ime vrste, broj vrsta, manji font, scroll ---
 function vrstePoGraduPopup(grad) {
   const vrste = [];
   window.hierAntData.forEach(obj => {
     if (obj.lokacije && obj.lokacije.includes(grad)) {
-      vrste.push(`${obj.potporodica} | ${obj.rod} | <b>${obj.vrsta}</b>`);
+      vrste.push(obj.vrsta);
     }
   });
-  if (vrste.length === 0) return "<i>Nema podataka o vrstama za ovaj grad.</i>";
-  return "<ul>" + vrste.map(v => `<li>${v}</li>`).join('') + "</ul>";
+  if (vrste.length === 0) return "<i style='font-size:12px'>Nema podataka o vrstama za ovaj grad.</i>";
+  return `
+    <div class="popup-vrste-title">Vrste (${vrste.length}):</div>
+    <ul class="popup-vrste-list">${vrste.map(v => `<li>${v}</li>`).join('')}</ul>
+  `;
 }
 
-// Funkcija za provjeru gradova
 function provjeriGradove(data, gradoviDict) {
   const sviGradovi = new Set(Object.keys(gradoviDict));
   const nedostaju = new Set();

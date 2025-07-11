@@ -9,17 +9,19 @@
 </head>
 <body>
   <div id="map-container">
+    <!-- Tražilica gradova -->
+    <div id="city-search-container">
+      <input type="text" id="city-search" placeholder="Traži grad...">
+      <div id="city-suggestions" class="hidden"></div>
+    </div>
     <!-- Karta -->
     <div id="map"></div>
-
     <!-- Sidebar (panel) -->
     <div id="sidebar">
       <button id="toggle-button">Prikaži vrste</button>
       <div id="species-list" class="hidden"></div>
     </div>
-  </div> 
-  <input type="text" id="city-search" placeholder="Traži grad..." style="width:100%;margin-bottom:8px;">
-
+  </div>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
