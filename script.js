@@ -46,7 +46,9 @@ function loadMarkers(filteredData) {
     // Žuti marker za grad
     L.marker([item.lat, item.lng], { icon: yellowIcon })
       .addTo(map)
-      .bindPopup(`<b>Vrsta:</b> ${item.vrsta} <br> <b>Grad:</b> ${item.grad}`);
+      .bindPopup(
+        `<b>Grad:</b> ${item.grad}<br><b>Vrste:</b><br>${vrstePoGraduPopup(item.grad)}`
+      );
 
     // Narančasti markeri za lokacije
     if (item.lokacije) {
@@ -415,6 +417,18 @@ function generateSpeciesListBracko(data) {
   });
 }
 
+// Funkcija za dohvat svih vrsta za određeni grad
+function vrstePoGraduPopup(grad) {
+  const vrste = [];
+  window.hierAntData.forEach(obj => {
+    if (obj.lokacije && obj.lokacije.includes(grad)) {
+      vrste.push(`${obj.potporodica} | ${obj.rod} | <b>${obj.vrsta}</b>`);
+    }
+  });
+  if (vrste.length === 0) return "<i>Nema podataka o vrstama za ovaj grad.</i>";
+  return "<ul>" + vrste.map(v => `<li>${v}</li>`).join('') + "</ul>";
+}
+
 // Funkcija za provjeru gradova
 function provjeriGradove(data, gradoviDict) {
   const sviGradovi = new Set(Object.keys(gradoviDict));
@@ -485,3 +499,22 @@ function vrstePoGradu(grad) {
     });
   }
 }
+
+// Dodano za pretraživanje gradova
+document.getElementById('city-search').addEventListener('input', function(e) {
+  const query = e.target.value.trim().toLowerCase();
+  if (!query) return;
+  // Pronađi grad u gradoviDict
+  const grad = Object.keys(gradoviDict).find(g =>
+    g.toLowerCase().includes(query)
+  );
+  if (grad) {
+    const { lat, lng } = gradoviDict[grad];
+    map.setView([lat, lng], 11);
+    // Prikaži popup s vrstama
+    const popup = L.popup()
+      .setLatLng([lat, lng])
+      .setContent(`<b>Grad:</b> ${grad}<br><b>Vrste:</b><br>${vrstePoGraduPopup(grad)}`);
+    popup.openOn(map);
+  }
+});
