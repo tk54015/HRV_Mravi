@@ -686,21 +686,4 @@ function vrstePoGradu(grad) {
   }
 }
 
-// Dodano za pretraživanje gradova
-document.getElementById('city-search').addEventListener('input', function(e) {
-  const query = e.target.value.trim().toLowerCase();
-  if (!query) return;
-  // Pronađi grad u gradoviDict
-  const grad = Object.keys(gradoviDict).find(g =>
-    g.toLowerCase().includes(query)
-  );
-  if (grad) {
-    const { lat, lng } = gradoviDict[grad];
-    map.setView([lat, lng], 11);
-    // Prikaži popup s vrstama
-    const popup = L.popup()
-      .setLatLng([lat, lng])
-      .setContent(`<b>Grad:</b> ${grad}<br><b>Vrste:</b><br>${vrstePoGraduPopup(grad)}`);
-    popup.openOn(map);
-  }
-});
+

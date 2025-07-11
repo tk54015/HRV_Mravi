@@ -1,6 +1,9 @@
 /* Osnovni stilovi za mapu i sidebar */
 #map-container {
   display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 #map {
