@@ -124,7 +124,6 @@ function generateSpeciesListBracko(data) {
   noneInput.name = 'species';
   noneInput.id = 'none';
   noneInput.checked = true;
-  noneInput.onchange = filterData;
 
   const noneLabel = document.createElement('label');
   noneLabel.htmlFor = 'none';
@@ -172,10 +171,15 @@ function generateSpeciesListBracko(data) {
       const vrsteUl = document.createElement('ul');
       vrste.forEach(vrstaObj => {
         const li = document.createElement('li');
-        li.innerHTML = `
-          <input type="radio" name="species" id="${vrstaObj.vrsta}" onchange="filterData()">
-          <label for="${vrstaObj.vrsta}">${vrstaObj.vrsta}</label>
-        `;
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = 'species';
+        radio.id = vrstaObj.vrsta;
+        const label = document.createElement('label');
+        label.htmlFor = vrstaObj.vrsta;
+        label.textContent = vrstaObj.vrsta;
+        li.appendChild(radio);
+        li.appendChild(label);
         vrsteUl.appendChild(li);
       });
       rodDiv.appendChild(vrsteUl);
@@ -243,6 +247,11 @@ function generateSpeciesListBracko(data) {
     };
 
     container.appendChild(potDiv);
+  });
+
+  // Dodaj event listener za sve radio gumbe
+  container.querySelectorAll('input[type="radio"][name="species"]').forEach(radio => {
+    radio.addEventListener('change', filterData);
   });
 }
 
