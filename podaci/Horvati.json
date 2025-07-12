@@ -1,0 +1,31 @@
+{
+  "vrste": [
+    { "potporodica": "Formicinae", "rod": "Camponotus", "vrsta": "Camponotus vagus", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Camponotus", "vrsta": "Camponotus fallax", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Formica", "vrsta": "Formica cunicularia", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Formica", "vrsta": "Formica rufibarbis", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Lasius", "vrsta": "Lasius emarginatus", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Lasius", "vrsta": "Lasius fuliginosus", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Lasius", "vrsta": "Lasius cf. nitidigaster", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Lasius", "vrsta": "Lasius niger", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Lasius", "vrsta": "Lasius sp.", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Plagiolepis", "vrsta": "Plagiolepis pygmaea", "lokacije": ["Horvati"] },
+
+    { "potporodica": "Dolichoderinae", "rod": "Dolichoderus", "vrsta": "Dolichoderus quadripunctatus", "lokacije": ["Horvati"] },
+    { "potporodica": "Dolichoderinae", "rod": "Tapinoma", "vrsta": "Tapinoma erraticum", "lokacije": ["Horvati"] },
+
+    { "potporodica": "Myrmicinae", "rod": "Myrmica", "vrsta": "Myrmica rubra", "lokacije": ["Horvati"] },
+    { "potporodica": "Myrmicinae", "rod": "Myrmica", "vrsta": "Myrmica scabrinodis", "lokacije": ["Horvati"] },
+    { "potporodica": "Myrmicinae", "rod": "Solenopsis", "vrsta": "Solenopsis fugax", "lokacije": ["Horvati"] },
+    { "potporodica": "Myrmicinae", "rod": "Temnothorax", "vrsta": "Temnothorax cf. nylanderi", "lokacije": ["Horvati"] },
+    { "potporodica": "Myrmicinae", "rod": "Tetramorium", "vrsta": "Tetramorium caespitum", "lokacije": ["Horvati"] },
+
+    { "potporodica": "Myrmicinae", "rod": "Myrmecina", "vrsta": "Myrmecina graminicola", "lokacije": ["Horvati"] },
+    { "potporodica": "Formicinae", "rod": "Colobopsis", "vrsta": "Colobopsis truncata", "lokacije": ["Horvati"] },
+    { "potporodica": "Ponerinae", "rod": "Ponera", "vrsta": "Ponera coarctata", "lokacije": ["Horvati"] },
+    { "potporodica": "Myrmicinae", "rod": "Aphaenogaster", "vrsta": "Aphaenogaster subterranea", "lokacije": ["Horvati"] }
+  ],
+  "lokaliteti": [
+    { "id": "Horvati", "naziv": "Horvati", "lat": 45.71212867670955, "lng": 15.812051445753058 }
+  ]
+}

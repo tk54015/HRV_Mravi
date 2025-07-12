@@ -1,12 +1,11 @@
 // Inicijalizacija mape
-const map = L.map('map').setView([45.1, 15.2], 7); // Središte Hrvatske
+const map = L.map('map').setView([45.1, 15.2], 7);
 
-// Dodavanje osnovne tile mape
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// Definiraj različite ikone
+// Ikone
 const yellowIcon = L.icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
   shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
@@ -32,60 +31,75 @@ const redIcon = L.icon({
   shadowSize: [41, 41]
 });
 
-// Funkcija za dodavanje markera
-function loadMarkers(filteredData) {
-  // Očisti mapu prije nego ponovo dodamo markere
-  map.eachLayer(function(layer) {
-    if (layer instanceof L.Marker) {
-      map.removeLayer(layer);
-    }
-  });
+let gradoviDict = {};
+let lokalitetiDict = {};
+let currentVrste = [];
+let currentLokaliteti = [];
+let isZGMrav = false;
+let lastCheckedSpeciesId = 'showAll'; // default je "Prikaži sve lokalitete"
 
-  // Dodaj markere prema filtriranim podacima
-  filteredData.forEach(item => {
-    // Žuti marker za grad
-    L.marker([item.lat, item.lng], { icon: yellowIcon })
-      .addTo(map)
-      .bindPopup(
-        `<b>Grad:</b> ${item.grad}<br>${vrstePoGraduPopup(item.grad)}`
-      );
-  });
+// Učitavanje baze prema izboru
+function ucitajSve(dbFile) {
+  fetch('podaci/' + dbFile)
+    .then(res => res.json())
+    .then(data => {
+      if (data.vrste && data.lokaliteti) {
+        isZGMrav = true;
+        currentVrste = data.vrste;
+        currentLokaliteti = data.lokaliteti;
+        lokalitetiDict = {};
+        data.lokaliteti.forEach(lok => {
+          lokalitetiDict[lok.id] = { lat: lok.lat, lng: lok.lng, naziv: lok.naziv };
+        });
+        gradoviDict = lokalitetiDict;
+        window.antData = flattenAntDataBracko(data.vrste, lokalitetiDict);
+        window.hierAntData = data.vrste;
+        generateSpeciesListBracko(data.vrste);
+        // Automatski aktiviraj odgovarajući gumb
+        if (lastCheckedSpeciesId === 'none') {
+          loadMarkers([]);
+        } else {
+          loadMarkers(); // showAll ili neka vrsta
+        }
+      } else {
+        isZGMrav = false;
+        currentVrste = data;
+        fetch('podaci/gradovi.json')
+          .then(res => res.json())
+          .then(gradovi => {
+            gradoviDict = {};
+            gradovi.forEach(g => {
+              if (g.naziv) gradoviDict[g.naziv] = { lat: g.lat, lng: g.lng };
+              if (g.grad) gradoviDict[g.grad] = { lat: g.lat, lng: g.lng };
+            });
+            window.antData = flattenAntDataBracko(data, gradoviDict);
+            window.hierAntData = data;
+            generateSpeciesListBracko(data);
+            // Automatski aktiviraj odgovarajući gumb
+            if (lastCheckedSpeciesId === 'none') {
+              loadMarkers([]);
+            } else {
+              loadMarkers();
+            }
+          });
+      }
+    });
 }
 
-let gradoviDict = {};
-
-Promise.all([
-  fetch('podaci/BrackoCro.json').then(res => res.json()),
-  fetch('podaci/gradovi.json').then(res => res.json())
-]).then(([data, gradovi]) => {
-  gradoviDict = {};
-  gradovi.forEach(g => {
-    if (g.naziv) gradoviDict[g.naziv] = { lat: g.lat, lng: g.lng };
-    if (g.grad) gradoviDict[g.grad] = { lat: g.lat, lng: g.lng };
-  });
-
-  window.antData = flattenAntDataBracko(data);
-  window.hierAntData = data; // Za kompatibilnost
-  generateSpeciesListBracko(data);
-  loadMarkers([]); // Ne prikazuj markere na početku
-  provjeriGradove(window.hierAntData, gradoviDict); // Provjeri gradove nakon učitavanja podataka
-});
-
-// Nova flatten funkcija koja koristi gradoviDict
-function flattenAntDataBracko(data) {
+// Flatten funkcija
+function flattenAntDataBracko(data, dict) {
   const flat = [];
   data.forEach(obj => {
     if (!obj.lokacije) return;
     obj.lokacije.forEach(lok => {
-      const grad = lok;
-      if (gradoviDict[grad]) {
+      if (dict[lok]) {
         flat.push({
           vrsta: obj.vrsta,
           rod: obj.rod,
           potporodica: obj.potporodica,
-          grad: grad,
-          lat: gradoviDict[grad].lat,
-          lng: gradoviDict[grad].lng
+          grad: lok,
+          lat: dict[lok].lat,
+          lng: dict[lok].lng
         });
       }
     });
@@ -93,11 +107,64 @@ function flattenAntDataBracko(data) {
   return flat;
 }
 
-// Funkcija za filtriranje (koristi window.antData)
+// Prvo učitaj default bazu
+ucitajSve(document.getElementById('db-select').value);
+
+// Promjena baze podataka
+document.getElementById('db-select').addEventListener('change', function() {
+  ucitajSve(this.value);
+});
+
+// Funkcija za dodavanje markera
+function loadMarkers(filteredData) {
+  map.eachLayer(function(layer) {
+    if (layer instanceof L.Marker) map.removeLayer(layer);
+  });
+
+  // Ako je filtrirano, prikazuj samo odabrane
+  if (filteredData && filteredData.length > 0) {
+    filteredData.forEach(item => {
+      L.marker([item.lat, item.lng], { icon: yellowIcon })
+        .addTo(map)
+        .bindPopup(
+          `<b>Lokalitet:</b> ${gradoviDict[item.grad]?.naziv || item.grad}<br>
+           <b>Vrsta:</b> ${item.vrsta}`
+        );
+    });
+    return;
+  }
+
+  // Ako je filteredData prazno (Makni sve markere), NE prikazuj ništa!
+  if (filteredData && filteredData.length === 0) {
+    return;
+  }
+
+  // Ako nije filtrirano ili je pozvano bez argumenta, prikazuj sve lokalitete
+  const dict = isZGMrav ? lokalitetiDict : gradoviDict;
+  Object.entries(dict).forEach(([id, lok]) => {
+    // Broj vrsta za lokalitet
+    const vrste = window.antData.filter(item => item.grad === id);
+    const popupHtml = `
+      <b>Lokalitet:</b> ${lok.naziv || id}<br>
+      <b>Broj vrsta:</b> ${vrste.length}<br>
+      ${vrste.length > 0 ? `<ul class="popup-vrste-list">${vrste.map(v => `<li>${v.vrsta}</li>`).join('')}</ul>` : "<i style='font-size:12px'>Nema podataka o vrstama za ovaj lokalitet.</i>"}
+    `;
+    L.marker([lok.lat, lok.lng], { icon: yellowIcon })
+      .addTo(map)
+      .bindPopup(popupHtml);
+  });
+}
+
+// Funkcija za filtriranje
 function filterData() {
   const checkedRadio = document.querySelector('#species-list input[type="radio"]:checked');
+  if (checkedRadio) lastCheckedSpeciesId = checkedRadio.id;
   if (!checkedRadio || checkedRadio.id === "none") {
-    loadMarkers([]); // Nema odabrane vrste, makni sve markere
+    loadMarkers([]);
+    return;
+  }
+  if (checkedRadio.id === "showAll") {
+    loadMarkers();
     return;
   }
   const filteredData = window.antData.filter(item => item.vrsta === checkedRadio.id);
@@ -115,11 +182,26 @@ document.getElementById('toggle-button').addEventListener('click', function() {
 // Funkcija za generiranje popisa vrsta (po potporodici i rodu)
 function generateSpeciesListBracko(data) {
   const container = document.getElementById('species-list');
-  // Zapamti trenutno odabrani radio gumb
-  const prevChecked = container.querySelector('input[type="radio"]:checked');
-  const prevCheckedId = prevChecked ? prevChecked.id : 'none';
-
   container.innerHTML = '';
+
+  // Opcija za prikaz svih lokaliteta
+  const allDiv = document.createElement('div');
+  const allInput = document.createElement('input');
+  allInput.type = 'radio';
+  allInput.name = 'species';
+  allInput.id = 'showAll';
+  const allLabel = document.createElement('label');
+  allLabel.htmlFor = 'showAll';
+  allLabel.innerHTML = '<i>Prikaži sve lokalitete</i>';
+  // allLabel.style.display = 'inline'; // UKLONJENO
+  allLabel.style.color = '#222';
+  allLabel.style.fontSize = '15px';
+  allLabel.style.background = '#fff';
+  allLabel.style.position = 'relative';
+  allLabel.style.zIndex = '1000';
+  allDiv.appendChild(allInput);
+  allDiv.appendChild(allLabel);
+  container.appendChild(allDiv);
 
   // Opcija za maknuti sve markere
   const noneDiv = document.createElement('div');
@@ -127,11 +209,9 @@ function generateSpeciesListBracko(data) {
   noneInput.type = 'radio';
   noneInput.name = 'species';
   noneInput.id = 'none';
-
   const noneLabel = document.createElement('label');
   noneLabel.htmlFor = 'none';
   noneLabel.innerHTML = '<i>Makni sve markere</i>';
-
   noneDiv.appendChild(noneInput);
   noneDiv.appendChild(noneLabel);
   container.appendChild(noneDiv);
@@ -197,7 +277,6 @@ function generateSpeciesListBracko(data) {
           rodArrow.textContent = '►';
           rodOpen = false;
         } else {
-          // Zatvori sve vrsteUl u ovom potDiv
           Array.from(rodDiv.parentNode.children).forEach(child => {
             if (child.querySelector && child.querySelector('ul')) {
               child.querySelector('ul').style.display = 'none';
@@ -216,7 +295,6 @@ function generateSpeciesListBracko(data) {
       potDiv.appendChild(rodDiv);
     });
 
-    // Otvaranje/zatvaranje potporodica
     Array.from(potDiv.children).forEach((child, i) => {
       if (i > 0) child.style.display = 'none';
     });
@@ -229,7 +307,6 @@ function generateSpeciesListBracko(data) {
         potArrow.textContent = '►';
         potOpen = false;
       } else {
-        // Zatvori sve ostale potporodice
         Array.from(container.children).forEach(potDiv2 => {
           if (potDiv2 !== potDiv) {
             Array.from(potDiv2.children).forEach((child, i) => {
@@ -252,19 +329,17 @@ function generateSpeciesListBracko(data) {
     container.appendChild(potDiv);
   });
 
-  // Dodaj event listener za sve radio gumbe
   container.querySelectorAll('input[type="radio"][name="species"]').forEach(radio => {
     radio.addEventListener('change', filterData);
-    // Vrati checked na prethodno odabrani radio
-    if (radio.id === prevCheckedId) {
+    if (radio.id === lastCheckedSpeciesId) {
       radio.checked = true;
     }
   });
-  // Ako ništa nije bilo odabrano, default na "none"
+  // Ako nijedan nije checked, default na "showAll"
   if (!container.querySelector('input[type="radio"]:checked')) {
-    container.querySelector('#none').checked = true;
+    container.querySelector('#showAll').checked = true;
+    lastCheckedSpeciesId = 'showAll';
   }
-  // --- OVDJE DODAJ OVO: uvijek postavi tekst labela ---
   const noneLabelFix = container.querySelector('label[for="none"]');
   if (noneLabelFix) {
     noneLabelFix.innerHTML = '<i>Makni sve markere</i>';

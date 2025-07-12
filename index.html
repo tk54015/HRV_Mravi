@@ -21,6 +21,15 @@
       <button id="toggle-button">Prikaži vrste</button>
       <div id="species-list" class="hidden"></div>
     </div>
+    <!-- Odabir baze podataka -->
+    <div id="db-select-container" style="position:absolute;top:10px;right:320px;z-index:1100;background:#fff;padding:6px 10px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+      <label for="db-select"><b>Baza podataka:</b></label>
+      <select id="db-select">
+        <option value="BrackoCro.json">Bračko Cro</option>
+        <option value="ZGMrav.json">ZG Mrav</option>
+        <option value="Horvati.json">Horvati</option>
+      </select>
+    </div>
   </div>
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
