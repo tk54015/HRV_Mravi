@@ -144,10 +144,12 @@ function loadMarkers(filteredData) {
   Object.entries(dict).forEach(([id, lok]) => {
     // Broj vrsta za lokalitet
     const vrste = window.antData.filter(item => item.grad === id);
+    // Sortiraj abecedno po hrvatskom
+    const vrsteSorted = [...vrste].sort((a, b) => a.vrsta.localeCompare(b.vrsta, 'hr'));
     const popupHtml = `
       <b>Lokalitet:</b> ${lok.naziv || id}<br>
-      <b>Broj vrsta:</b> ${vrste.length}<br>
-      ${vrste.length > 0 ? `<ul class="popup-vrste-list">${vrste.map(v => `<li>${v.vrsta}</li>`).join('')}</ul>` : "<i style='font-size:12px'>Nema podataka o vrstama za ovaj lokalitet.</i>"}
+      <b>Broj vrsta:</b> ${vrsteSorted.length}<br>
+      ${vrsteSorted.length > 0 ? `<ul class="popup-vrste-list">${vrsteSorted.map(v => `<li>${v.vrsta}</li>`).join('')}</ul>` : "<i style='font-size:12px'>Nema podataka o vrstama za ovaj lokalitet.</i>"}
     `;
     L.marker([lok.lat, lok.lng], { icon: yellowIcon })
       .addTo(map)
@@ -400,8 +402,9 @@ function vrstePoGraduPopup(grad) {
       vrste.push(obj.vrsta);
     }
   });
+  // Sortiraj abecedno po hrvatskom
+  vrste.sort((a, b) => a.localeCompare(b, 'hr'));
   if (vrste.length === 0) return "<i style='font-size:12px'>Nema podataka o vrstama za ovaj grad.</i>";
-  vrste.sort((a, b) => a.localeCompare(b, 'hr')); // Sortiraj abecedno po hrvatskom
   return `
     <div class="popup-vrste-title">Vrste (${vrste.length}):</div>
     <ul class="popup-vrste-list">${vrste.map(v => `<li>${v}</li>`).join('')}</ul>
