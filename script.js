@@ -36,7 +36,7 @@ let lokalitetiDict = {};
 let currentVrste = [];
 let currentLokaliteti = [];
 let isZGMrav = false;
-let lastCheckedSpeciesId = 'showAll'; // default je "Prikaži sve lokalitete"
+let lastCheckedSpeciesId = 'none'; // default je "Makni sve markere"
 
 // Učitavanje baze prema izboru
 function ucitajSve(dbFile) {
@@ -124,12 +124,17 @@ function loadMarkers(filteredData) {
   // Ako je filtrirano, prikazuj samo odabrane
   if (filteredData && filteredData.length > 0) {
     filteredData.forEach(item => {
+      // Prikaži SVE vrste za taj lokalitet u popupu, ne samo filtriranu
+      const vrste = window.antData.filter(v => v.grad === item.grad);
+      const vrsteSorted = [...vrste].sort((a, b) => a.vrsta.localeCompare(b.vrsta, 'hr'));
+      const popupHtml = `
+        <b>Lokalitet:</b> ${gradoviDict[item.grad]?.naziv || item.grad}<br>
+        <b>Broj vrsta:</b> ${vrsteSorted.length}<br>
+        ${vrsteSorted.length > 0 ? `<ul class="popup-vrste-list">${vrsteSorted.map(v => `<li>${v.vrsta}</li>`).join('')}</ul>` : "<i style='font-size:12px'>Nema podataka o vrstama za ovaj lokalitet.</i>"}
+      `;
       L.marker([item.lat, item.lng], { icon: yellowIcon })
         .addTo(map)
-        .bindPopup(
-          `<b>Lokalitet:</b> ${gradoviDict[item.grad]?.naziv || item.grad}<br>
-           <b>Vrsta:</b> ${item.vrsta}`
-        );
+        .bindPopup(popupHtml);
     });
     return;
   }
