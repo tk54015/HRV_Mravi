@@ -380,4 +380,3 @@ function provjeriGradove(data, gradoviDict) {
   }
 }
 
-
