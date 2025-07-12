@@ -112,28 +112,6 @@ document.getElementById('toggle-button').addEventListener('click', function() {
   document.getElementById('toggle-button').innerText = buttonText;
 });
 
-const closeSidebarBtn = document.getElementById('close-sidebar');
-closeSidebarBtn.addEventListener('click', function() {
-  document.getElementById('species-list').classList.add('hidden');
-  closeSidebarBtn.style.display = 'none';
-  document.getElementById('toggle-button').style.display = 'block'; // ili ''
-});
-
-// Prikaži X gumb samo na mobitelu kad je sidebar otvoren
-document.getElementById('toggle-button').addEventListener('click', function() {
-  const speciesList = document.getElementById('species-list');
-  const closeSidebarBtn = document.getElementById('close-sidebar');
-  if (window.innerWidth < 700) {
-    if (speciesList.classList.contains('hidden')) {
-      closeSidebarBtn.style.display = '';
-      this.style.display = 'none';
-    } else {
-      closeSidebarBtn.style.display = 'none';
-      this.style.display = '';
-    }
-  }
-});
-
 // Funkcija za generiranje popisa vrsta (po potporodici i rodu)
 function generateSpeciesListBracko(data) {
   const container = document.getElementById('species-list');
