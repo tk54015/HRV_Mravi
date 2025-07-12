@@ -123,3 +123,55 @@ label[for="none"] {
   position: relative !important;
   z-index: 1000 !important;
 }
+
+/* MOBITEL: do 700px širine */
+@media (max-width: 700px) {
+  #map-container {
+    flex-direction: column;
+  }
+  #map {
+    width: 100vw;
+    height: 60vh;
+    min-height: 300px;
+  }
+  #sidebar {
+    width: 100vw;
+    height: 40vh;
+    max-height: 60vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    z-index: 2000;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+    transform: translateY(100%);
+  }
+  #sidebar:not(.hidden) {
+    transform: translateY(0);
+  }
+  #toggle-button {
+    position: fixed;
+    left: 50%;
+    bottom: 40vh;
+    transform: translateX(-50%);
+    width: 90vw;
+    z-index: 2100;
+  }
+  #city-search-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 90vw;
+    z-index: 3000;
+  }
+}
+
+/* Kad je sidebar otvoren, karta je zamagljena */
+@media (max-width: 700px) {
+  #sidebar:not(.hidden) ~ #map {
+    filter: blur(2px) brightness(0.8);
+    pointer-events: none;
+  }
+}
