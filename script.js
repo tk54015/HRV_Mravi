@@ -116,7 +116,7 @@ const closeSidebarBtn = document.getElementById('close-sidebar');
 closeSidebarBtn.addEventListener('click', function() {
   document.getElementById('species-list').classList.add('hidden');
   closeSidebarBtn.style.display = 'none';
-  document.getElementById('toggle-button').style.display = '';
+  document.getElementById('toggle-button').style.display = 'block'; // ili ''
 });
 
 // Prikaži X gumb samo na mobitelu kad je sidebar otvoren

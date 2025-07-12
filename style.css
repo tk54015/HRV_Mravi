@@ -154,10 +154,11 @@ label[for="none"] {
   #toggle-button {
     position: fixed;
     left: 50%;
-    bottom: 40vh;
+    bottom: 45vh; /* malo iznad sidebar-a */
     transform: translateX(-50%);
     width: 90vw;
     z-index: 2100;
+    display: block;
   }
   #city-search-container {
     position: fixed;
@@ -165,6 +166,11 @@ label[for="none"] {
     left: 10px;
     width: 90vw;
     z-index: 3000;
+  }
+  .leaflet-control-zoom {
+    top: 70px !important; /* pomakni zoom ispod tražilice */
+    right: 10px !important;
+    left: auto !important;
   }
 }
 
